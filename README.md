@@ -13,7 +13,7 @@ aux collaborateurs
 
 ### Cloner avec https
 
-    $ git clone git@github.com:ioO/cowork-in-montpellier.git
+    $ git clone https://github.com/ioO/cowork-in-montpellier.git
 
 ### Branches
 
