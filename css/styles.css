@@ -55,10 +55,16 @@ h1 span {
 .objectif p {
 	margin: 0 0 30px;
 }
-
-iframe #mailjet-subscribe-widget-703 {
-	border: none !important;
+.mailjet {
+	margin: 0 auto;
+	width: 265px;
+	position: relative;
+	background:  url(../img/bg-email.gif) 0 0 repeat-x;
 }
-iframe #mailjet-subscribe-widget-703 h3.mailjet-widget-title {
-	font: 1.5em "museo_700regular",Arial,sans-serif;
+.mailjet h2 {
+	position: absolute;
+
+}
+.mailjet iframe {
+	margin: 30px 0 0;
 }
