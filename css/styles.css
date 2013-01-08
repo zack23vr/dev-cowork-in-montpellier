@@ -68,9 +68,7 @@ h1 span {
 .mailjet iframe {
 	margin: 30px 0 0;
 }
-.mailjet #mailjet-subscribe-widget-703 p.success {
-	margin-top: 30px;
-}
-#mailjet-subscribe-widget-703 h3.mailjet-widget-title {
-	margin: 0;
+.rsalc {
+	margin: 0 auto 15px;
+	text-align: center;
 }
