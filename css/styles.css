@@ -17,9 +17,9 @@
 }
 body {
 	margin: 0;
-	font: 300 1.143em "Open Sans", Arial,sans-serif;
+	font: 400 1.143em "Open Sans", Arial,sans-serif;
 	line-height: 1.643em;
-	color: #0071bc;
+	color: #4d4d4d;
 	border-top: 5px solid #0071bc;
 }
 .wrapper {
@@ -40,9 +40,11 @@ h3 {
 }
 h1, h2, h3 {
 	text-align: center;
+	color: #0071bc;
 }
 h1 span {
 	font: 300 0.9em "Open Sans", Arial,sans-serif;
+	border-top: 1px solid #d1e5f3;
 }
 .accroche {
 	margin: 0 auto 50px;
@@ -57,14 +59,18 @@ h1 span {
 }
 .mailjet {
 	margin: 0 auto;
-	width: 265px;
+	width: 300px;
 	position: relative;
-	background:  url(../img/bg-email.gif) 0 0 repeat-x;
 }
-.mailjet h2 {
+/* .mailjet h2 {
 	position: absolute;
-
-}
+} */
 .mailjet iframe {
 	margin: 30px 0 0;
+}
+.mailjet #mailjet-subscribe-widget-703 p.success {
+	margin-top: 30px;
+}
+#mailjet-subscribe-widget-703 h3.mailjet-widget-title {
+	margin: 0;
 }
