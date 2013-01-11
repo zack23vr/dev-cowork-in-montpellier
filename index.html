@@ -21,7 +21,9 @@
             <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://widget.mailjet.com/7ed361d9b6d3a7c00a6acb91ecc3150138f68a36.html" width="auto" height="auto"></iframe>
         </div>
         <div class="span4 rsalc">
-            <p>Aidez-nous à financer l'aventure sur <a href="http://fr.ulule.com/coworkin-montpellier/">Ulule</a></p>
+            <p><strong><a href="http://fr.ulule.com/coworkin-montpellier/">Aidez-nous à financer l'aventure sur Ulule</a></strong>.<br/>Nous en sommes déjà à <span id="ulule"><span class="percent">--</span>% (<span class="amount">---</span>€)</span> ! Woohoo !<br/>
+            <a href="http://fr.ulule.com/coworkin-montpellier/">Nous aider »</a>
+            </p>
             Suivez nous sur <a href="https://twitter.com/cowork_in_mtp">Twitter</a> <br/> et 
             <a href="https://www.facebook.com/CoworkInMontpellier">Facebook</a>
     </div>
@@ -47,6 +49,7 @@
     </div>
 </div>
 </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script type="text/javascript">
 
 var _gaq = _gaq || [];
@@ -57,6 +60,11 @@ _gaq.push(['_trackPageview']);
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    var d = new Date();
+	$.get('http://modulaweb.fr/cwulule.php?t='+d.getTime(),function(data) {
+		$('#ulule .percent').html(data.percent);
+		$('#ulule .amount').html(data.amount);
+	},'jsonp');
 })();
 
 </script>
