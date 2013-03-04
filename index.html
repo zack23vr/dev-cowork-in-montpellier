@@ -1,77 +1,151 @@
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cowork'in Montpellier</title>
-    <link rel="icon" href="img/favicon.ico" />
-    <link rel="icon" type="image/png" href="img/favicon.png" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+	<title>Cowork'in Montpellier - Espace de Coworking</title>
+	<link rel="icon" href="img/favicon.ico" />
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheets/colorbox.css">
+	<link rel="stylesheet" href="stylesheets/screen.css">
 </head>
 <body>
-    <div class="container">
-        <div class="well">
-            <h2>Jounées portes ouvertes </h2>
-            <p>Du lundi 28 janvier au jeudi 31 janvier, venez librement découvrir l'espace. Venez pour 10 min, 1h, une demi journée, la journée entière de 9h jusqu'à 18h.
-            </p>
-            <p>Ce sera l'occasion d'avoir votre avis, d'échanger et de prendre votre place pour nous rejoindre dès le 1er Février, date de l'ouverture officielle.</p>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="span4">
-             <h1>Cowork'in <br/><span>Montpellier</span></h1>
-             <p class="accroche">L'association pour la création d'un espace de coworking à Montpellier</p>
-         </div>
-         <div class="span4 mailjet">
-            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://widget.mailjet.com/7ed361d9b6d3a7c00a6acb91ecc3150138f68a36.html" width="auto" height="auto"></iframe>
-        </div>
-        <div class="span4 rsalc">
-            Suivez nous sur <a href="https://twitter.com/cowork_in_mtp">Twitter</a> <br/> et 
-            <a href="https://www.facebook.com/CoworkInMontpellier">Facebook</a>
-    </div>
-</div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="span4">
-            <h3>C'est où ?</h3>
-            <p>L'espace est <a href="http://goo.gl/maps/OHx4z" title="Cowork'in Montpellier">22 rue de la République</a> à côté de la gare Saint-Roch, devant les arrêts de tram. L'espace est constitué d'une pièce de 50m2, restez connectés des photos vont suivre.
-            </p>
-        </div>
-        <div class="span4">
-            <h3>C'est pour quand ?</h3>
-            <p>Le 1er Février nous ouvrons l'espace aux coworkers. Dès fin janvier nous organiserons des évènements pour que vous puissiez venir librement et que la communauté se rencontre.
-            </p>
-        </div>
-        <div class="span4">
-            <h3>Je veux participer.</h3>
-            <p>Nous en sommes ravis ! Aidez nous pour le lancement sur <a href="http://fr.ulule.com/coworkin-montpellier/">ulule</a>. Des personnes nous suivent et nous espérons qu'elles nous rejoindront par la suite, comme vous.
-            </p>
-        </div>
-    </div>
-</div>
-</div>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script type="text/javascript">
-
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-37518491-1']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    var d = new Date();
-	$.get('http://modulaweb.fr/cwulule.php?t='+d.getTime(),function(data) {
-		$('#ulule .percent').html(data.percent);
-		$('#ulule .amount').html(data.amount);
-	},'jsonp');
-})();
-
-</script>
+	<header>
+		<div class="wrapper">
+			<nav>
+				<ul>
+					<li><a href="index.html">Coworkers</a></li>
+					<li><a href="espace.html">L'espace</a></li>
+					<li class="last"><a href="asso.html">L'asso</a></li>
+					<li class="last"><h1><a href="index.html"><img src="img/logo.png" alt="Cowork'in Montpellier"></a></h1></li>
+					<li><a href="wall-of-vous.html">Wall of vous</a></li>
+					<li><a href="presse.html">Presse</a></li>
+					<li class="last"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+		</div>
+	</header>
+	<section class="wrapper">
+		<div class="intro clearfix">
+			<div class="w60 fl">
+				<h2>Réunion d'information</h2>
+                <p>L'association Cowork'in Montpellier porte le projet de création d'un espace de coworking sur Montpellier. Nous croyons aux valeurs communautaires du coworking. L'espace doit être construit par et pour les coworkers.</p>
+				<p>C'est pourquoi nous organisons une réunion d'information sur l'association, ses projets et pour l'ouvrir à de nouveaux membres.</p>
+				<p>Venez échanger avec nous le <strong>mercredi 13 Mars 2013</strong></p>
+			</div>
+			<div class="w40 fl aligncenter">
+				<div class="follow w90 fr">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://widget.mailjet.com/7ed361d9b6d3a7c00a6acb91ecc3150138f68a36.html" width="auto" height="auto"></iframe>
+					<div class="rsalc">
+						<a href="https://www.facebook.com/CoworkInMontpellier" title="Cowork'in Montpellier sur Facebook">F</a>
+						<a href="https://twitter.com/cowork_in_mtp" title="Cowork'in Montpellier sur Twitter">T</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="wrapper">
+		<article id="tarifs">
+			<h2>Tarifs</h2>
+			<div class="table">
+				<div class="price">
+					<h3>Pay as you wish</h3>
+					<ul>
+						<li>Accès si place</li>
+						<li>Café / Thé</li>
+						<li>Wifi</li>
+						<li>&nbsp;</li>
+						<li class="amount">Un don au <a href="img/tout-est-bon.jpg" class="modal" title="Tout est bon dans le cochon">cochon</a></li>
+						<li><a href="#inscription" class="btn">S'inscrire</a></li>
+					</ul>
+				</div>
+				<div class="price">
+					<h3>La journée</h3>
+					<ul>
+						<li>Accès une journée</li>
+						<li>Café / Thé</li>
+						<li>Wifi</li>
+						<li>Imprimante</li>
+						<li class="amount">12€ / jour</li>
+						<li><a href="#inscription" class="btn">S'inscrire</a></li>
+					</ul>
+				</div>
+				<div class="price">
+					<h3>10 jours</h3>
+					<ul>
+						<li>10 accès journée </li>
+						<li>Café / Thé</li>
+						<li>Wifi</li>
+						<li>Imprimante</li>
+						<li class="amount">100€</li>
+						<li><a href="#inscription" class="btn">S'inscrire</a></li>
+					</ul>
+				</div>
+				<div class="price">
+					<h3>Part time</h3>
+					<ul>
+						<li>Accès 3 jours / semaine</li>
+						<li>Café / Thé</li>
+						<li>Wifi</li>
+						<li>Imprimante</li>
+						<li class="amount">100€ / mois</li>
+						<li><a href="#inscription" class="btn">S'inscrire</a></li>
+					</ul>
+				</div>
+				<div class="price">
+					<h3>Full time</h3>
+					<ul>
+						<li>Accès illimité</li>
+						<li>Café / Thé</li>
+						<li>Wifi</li>
+						<li>Imprimante</li>
+						<li class="amount">175€ / mois</li>
+						<li><a href="#inscription" class="btn">S'inscrire</a></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+		<article class="clearfix">
+			<div id="horaires" class="w30 fl">
+				<h2>Horaires</h2>
+				<p>L'espace est ouvert de 9h à 18h. <br />Nous nous organisons entre coworkers pour gérer les clés ce qui fait que les horaires s'adaptent à vos besoins.</p>
+			</div>
+			<div id="services" class="w30 fl">
+				<h2>Services</h2>
+				<p>Les services sont décrits dans les tarifs. Vous pouvez amener votre casse-croute pour le midi, le mettre dans le réfrigérateur et le réchauffer au micro-ondes.</p>
+			</div>
+			<div id="fonctionnement" class="w30 fl">
+				<h2>Fonctionnement</h2>
+                <p>Nous pensons que <a href="https://twitter.com/search?q=%23lesgens"> #lesgens</a> sont responsables, capables de créer une société et que la confiance crée l'ambiance. C'est pour cela que vous pouvez demander les clés, vous faire un café dans des tasses, utiliser l'imprimante sans quota.</p>
+			</div>
+		</article>
+		<article id="coworking">
+			<h2>Le coworking, c'est quoi ?</h2>
+            <p>Le coworking est un mouvement récent en France. C'est un espace de travail partagé qui rassemble un réseau de travailleurs. L'objectif est de permettre aux travailleurs de sortir de leur isolement, d'être dans un réseau ouvert et qui multiplie les échanges. Contrairement à un bureau, les places ne sont pas reservées, il n'y a pas d'engagement sur un  bail ni de préavis. Le coworking s'adresse à des indépendants, des télé-travailleurs, de petites structures récentes ou pas. Septique, dubitatif, enjoué, <a href="espace.html">venez tester</a>.</p>
+		</article>
+		<article id="inscription">
+			<h2>S'inscrire</h2>
+            <p>Notre intégrateur voulait absolument te faire un piège. Pour s'inscrire il faut venir ! Profites-en pour réfléchir à ta vengeance <a href="contact.html">en chemin</a>.
+		</article>
+	</section>
+	<footer class="wrapper">
+		<nav>
+        <ul>
+            <!--
+				<li><a href="plan-du-site.html">Plan du site</a></li>
+                <li class="last"><a href="mentions-legales.hmtl">Mentions légales</a></li>
+            -->
+			</ul>
+		</nav>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.colorbox-min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".modal").colorbox({rel:'modal'});
+		})
+	</script>
 </body>
 </html>
