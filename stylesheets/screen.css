@@ -408,17 +408,17 @@ header .wrapper {
 }
 
 /* line 81, ../sass/_layout.scss */
-#horaires {
+#horaires, #pourqui {
   padding: 0 2% 0 0;
 }
 
 /* line 84, ../sass/_layout.scss */
-#services {
+#services, #pourquoi {
   padding: 0 3%;
 }
 
 /* line 87, ../sass/_layout.scss */
-#fonctionnement {
+#fonctionnement, #role {
   padding: 0 0 0 2%;
 }
 
