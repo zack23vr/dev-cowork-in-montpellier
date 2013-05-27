@@ -141,9 +141,11 @@ body {
 .w10 {
   width: 10%;
 }
-
+.w15, .price {
+  width: 15%;
+}
 /* line 40, ../sass/_base.scss */
-.w20, .price {
+.w20 {
   width: 20%;
 }
 
