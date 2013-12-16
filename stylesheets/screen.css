@@ -225,7 +225,8 @@ body {
 }
 
 /* line 57, ../sass/_base.scss */
-strong {
+strong,
+.strong {
   font-weight: bold;
 }
 
