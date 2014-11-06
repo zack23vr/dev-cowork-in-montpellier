@@ -386,6 +386,9 @@ header .wrapper {
   background: #f5f5f5;
 }
 
+.intro > div {
+  margin: 0 auto;
+}
 /* line 57, ../sass/_layout.scss */
 .follow {
   background: #fff;
