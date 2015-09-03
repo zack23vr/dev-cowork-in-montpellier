@@ -297,7 +297,9 @@ h3 {
 h4 {
   font: 1.1em "museo_700regular", Arial, sans-serif;
 }
-
+header nav {
+  padding: 35px 0;
+}
 /* line 47, ../sass/_typography.scss */
 header nav li,
 footer nav li {
@@ -368,8 +370,7 @@ article {
 }
 
 /* line 34, ../sass/_layout.scss */
-header {
-  padding: 20px 0;
+header {    
   border-top: 5px solid #36a8e0;
 }
 /* line 39, ../sass/_layout.scss */
