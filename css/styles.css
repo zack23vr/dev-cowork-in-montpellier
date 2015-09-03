@@ -18,7 +18,7 @@ body {
 	font: 400 1.143em "Open Sans", Arial,sans-serif;
 	line-height: 1.643em;
 	color: #4d4d4d;
-	border-top: 5px solid #0071bc;
+	border-top: 5px solid #36a8e0;
 }
 .wrapper {
 	margin: 0 auto;
@@ -38,7 +38,7 @@ h3 {
 }
 h1, h2, h3 {
 	text-align: center;
-	color: #0071bc;
+	color: #36a8e0;
 }
 h1 span {
 	font: 300 0.9em "Open Sans", Arial,sans-serif;
