@@ -23,6 +23,9 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline;
 }
+* {
+  box-sizing: border-box;
+}
 
 /* line 22, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
@@ -467,4 +470,29 @@ header .wrapper {
 /* line 115, ../sass/_layout.scss */
 .form-line-error {
   background: none !important;
+}
+
+
+
+@media (max-width:989px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .w30 {
+    width: 100%;
+  }
+  .fl {
+    float: none;
+  }
+  #services, 
+  #pourquoi,
+  #fonctionnement,
+  #role {
+    padding: 0;
+  }
+  .price {
+    display: block;
+    width: 100%;
+  }
 }
