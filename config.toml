@@ -1,0 +1,21 @@
+baseURL = "/"
+languageCode = "en-us"
+
+title = "COWORK'IN montpellier"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[params]
+externalTitle = "Contact"
+sidebarColor = "blue"
+customCss = []
+
+[[menu.shortcuts]]
+name = "on Slack"
+url = "https://coworkinmtp.slack.com"
+weight = 10
+
+[[menu.shortcuts]]
+name = "by Mail"
+url = "mailto:contact@coworkinmontpellier.org"
+weight = 20

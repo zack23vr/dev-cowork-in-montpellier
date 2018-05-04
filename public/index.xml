@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COWORK&#39;IN montpellier</title>
+    <link>/</link>
+    <description>Recent content on COWORK&#39;IN montpellier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2018 21:48:10 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coworkers</title>
+      <link>/espaces/coworker/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>/espaces/coworker/</guid>
+      <description>Cowork’in Montpellier propose 24 bureaux répartis entre 4 salles en libre accès sans réservation. Plusieurs solutions s’offrent à toi : du carnet de 10 tickets aux abonnements mensuels.</description>
+    </item>
+    
+    <item>
+      <title>Salles de réunion</title>
+      <link>/espaces/r%C3%A9union/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>/espaces/r%C3%A9union/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parties communes</title>
+      <link>/espaces/commun/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>/espaces/commun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bora</title>
+      <link>/tarifs/bora/</link>
+      <pubDate>Sun, 28 Jan 2018 21:54:02 +0100</pubDate>
+      
+      <guid>/tarifs/bora/</guid>
+      <description>Bora Horza Gobuchul is a Changer and an operative of the Idiran Empire. Horza was one of a party of Changers allowed on Schar&amp;rsquo;s World, and for that reason is tasked by the Idirans with retrieving a Mind that had crashed to the planet. Horza is humanoid, but committed to the Idirans because he despises the Culture for its dependence on machines and what he perceives to be spiritual emptiness.</description>
+    </item>
+    
+    <item>
+      <title>Balveda</title>
+      <link>/tarifs/balveda/</link>
+      <pubDate>Sun, 28 Jan 2018 21:55:52 +0100</pubDate>
+      
+      <guid>/tarifs/balveda/</guid>
+      <description>Juboal-Rabaroansa Perosteck Alseyn Balveda dam T&amp;rsquo;seif, usually referred to as Perosteck Balveda, is an operative of the Culture assigned to track and apprehend Bora Horza Gobuchul. She works for the Special Circumstances branch of Contact, and despite being ambivalent about the methods they use, deeply believes in their objectives.</description>
+    </item>
+    
+    <item>
+      <title>Kraiklyn</title>
+      <link>/tarifs/kraiklyn/</link>
+      <pubDate>Sun, 28 Jan 2018 21:57:07 +0100</pubDate>
+      
+      <guid>/tarifs/kraiklyn/</guid>
+      <description>Kraiklyn is the captain of the Clear Air Turbulence.</description>
+    </item>
+    
+  </channel>
+</rss>
