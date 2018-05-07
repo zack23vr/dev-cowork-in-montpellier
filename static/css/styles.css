@@ -41,6 +41,11 @@ html, body {
   display: flex;
   flex-direction: column;
 }
+.sidebar .logo img {
+  margin: -1em;
+  height: auto;
+  max-width: 15vw;
+}
 .sidebar.sidebar-default {
   background-color: #363636;
 }
@@ -60,7 +65,7 @@ html, body {
   background-color: #5399B0;
 }
 .sidebar.sidebar-blue {
-  background-color: #37A8D7;
+  background-color: #35A8DF;
 }
 .sidebar.sidebar-grey {
   background-color: #959492;
