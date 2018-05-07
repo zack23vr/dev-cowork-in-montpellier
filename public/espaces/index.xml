@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L&#39;espace on COWORK&#39;IN montpellier</title>
+    <link>/espaces/</link>
+    <description>Recent content in L&#39;espace on COWORK&#39;IN montpellier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jan 2018 15:42:17 +0100</lastBuildDate>
+    
+	<atom:link href="/espaces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coworkers</title>
+      <link>/espaces/coworker/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>/espaces/coworker/</guid>
+      <description>Cowork’in Montpellier propose 24 bureaux répartis entre 4 salles en libre accès sans réservation. Plusieurs solutions s’offrent à toi : du carnet de 10 tickets aux abonnements mensuels.</description>
+    </item>
+    
+    <item>
+      <title>Salles de réunion</title>
+      <link>/espaces/r%C3%A9union/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>/espaces/r%C3%A9union/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parties communes</title>
+      <link>/espaces/commun/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:10 +0100</pubDate>
+      
+      <guid>/espaces/commun/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

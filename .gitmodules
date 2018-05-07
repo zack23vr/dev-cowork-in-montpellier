@@ -1,0 +1,6 @@
+[submodule "themes/solid-state"]
+	path = themes/solid-state
+	url = https://github.com/quimo/html5up-solid-state.git
+[submodule "themes/universal"]
+	path = themes/universal
+	url = https://github.com/devcows/hugo-universal-theme.git
